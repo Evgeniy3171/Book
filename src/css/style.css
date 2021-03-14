@@ -3,6 +3,8 @@
 }
 body {
     font-family: sans-serif;
+    color: #32325F;
+
 }
 .container {
     max-width: 1140px;
@@ -13,6 +15,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 159px;
 }
 .brand {
 opacity: 1;
@@ -23,6 +26,7 @@ text-transform: uppercase;
 .hero {
     padding-top: 70px;
     padding-bottom: 190px;
+    background-color: #F4F5F7;
 }
 .social a {
     text-decoration: none;
@@ -39,7 +43,6 @@ text-transform: uppercase;
 }
 .main-text {
     width: 50%;
-    color: #32325F;
 }
 .subtittle {
     font-size: 20px;
@@ -73,4 +76,93 @@ text-transform: uppercase;
 }
 .btn {
     text-decoration: none;
+    box-shadow: 0 3px 6x rgba(173, 173, 173, 0.16);
+    border-radius: 6px;
+    padding: 20px 31px;
+    color: white;
+}
+.btn-success {
+    background-color: #2DCE89;
+    margin-right: 30px;
+}
+.btn-primary {
+    background-color: #5E72E4;
+}
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-subtitle {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-title {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+}
+/* проба блока about */
+.bl {
+    margin-top: 99px;
+    margin-bottom: 164px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bl-1 {
+    margin-right: 2%;
+    width: 23%;
+    line-height: 1.4;
+}
+.bl-i {
+    height: 86px;
+    width: 85px;
+    margin-bottom: 40px;
+}
+/* .people */
+.people {
+    background-color: #F4F5F7;
+}
+.pic {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+.pic img {
+    height: 254px;
+    width: 362px;
+}
+.people h2 {
+    margin-bottom: 64px;
+}
+.footer {
+    margin-top: 112px;
+    background-color: #32325F;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    margin-top: 83px;
+}
+.footer-block h4 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-block {
+    width: 33%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.footer-block a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 7px;
 }
