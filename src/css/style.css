@@ -32,3 +32,45 @@ text-transform: uppercase;
     width: 27px;
     
 }
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-text {
+    width: 50%;
+    color: #32325F;
+}
+.subtittle {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+}
+.tittle {
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 26px;
+}
+.description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.price-tag {
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+}
+.price {
+    display: block;
+    margin-bottom: 49px;
+    font-size: 48px;
+    font-weight: 400;
+}
+.btn {
+    text-decoration: none;
+}
