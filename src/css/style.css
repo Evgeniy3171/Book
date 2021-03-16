@@ -80,6 +80,7 @@ text-transform: uppercase;
     border-radius: 6px;
     padding: 20px 31px;
     color: white;
+    display: inline-block;
 }
 .btn-success {
     background-color: #2DCE89;
